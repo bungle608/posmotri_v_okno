@@ -11,6 +11,7 @@ html {
 .page {
   display: flex;
   align-items: center;
+  justify-content: center;
   inline-size: 1200px;
   block-size: 100%;
   margin: auto;
@@ -57,7 +58,7 @@ video {
 .content {
   display: flex;
   gap: 30px;
-  margin: 0 30px;
+  margin: 0 80px 210px 80px;
   inline-size: 100%;
  
 }
