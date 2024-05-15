@@ -9,6 +9,8 @@ html {
 }
 
 .page {
+  display: flex;
+  align-items: center;
   inline-size: 1200px;
   block-size: 100%;
   margin: auto;
@@ -37,6 +39,16 @@ ol {
   list-style: none;
 }
 
+
+.visually-hidden {
+  position: absolute;
+  inline-size: 1px;
+  block-size: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  white-space: nowrap;
+} 
 
 video {
   width: 100%;
@@ -105,6 +117,68 @@ position: relative;
 
 .button {
   border: 1px solid #fff;
-  padding: 6px 0;
+  cursor: pointer;
+  padding: 6px 70px;
   font-size: 18px;
+  font-weight: 700;
+  color: #fff;
+  background-color: transparent;
+}
+
+.button:active {
+  background-color: #545050;
+}
+
+.button:hover {
+  text-decoration: underline 1px #fff;
+}
+
+.search-form__submit-button {
+  align-self: flex-end;
+}
+
+.title {
+  font-size: 75px;
+  font-weight: 700px;
+  line-height: 70.5px;
+  font-family: Oswald, sans-serif;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.content__accent {
+  color: #545050;
+}
+
+.content__list {
+  position: relative;
+  overflow-y: scroll;
+  block-size: 300px;
+  scrollbar-width: none;
+}
+
+.content__list-item:not(:last-child) {
+  margin-bottom: 40px;
+}
+
+.content__card-link {
+  display: block;
+  text-decoration: none;
+}
+
+.content__card-link:active {
+  background-color: #545050;
+}
+
+.content__card-link:hover {
+  text-decoration: underline 1px #FFF;
+}
+
+.content__video-card {
+  display: flex;
+  justify-content: space-between;
+}
+
+.content__video-card-description-container { 
+  
 }
