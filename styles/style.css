@@ -123,8 +123,6 @@ video {
     width: 225px;
     color: #fff;
     appearance: none;
-   
-    
 }
 
 .search-form__textfield::placeholder {
