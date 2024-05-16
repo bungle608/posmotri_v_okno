@@ -193,8 +193,9 @@ video {
 .content__list {
     position: relative;
     overflow-y: scroll;
-    height: 340px;
+    height: 314px;
     scrollbar-width: none;
+    margin-top: 26px;
 }
 
 .content__list-item:not(:last-child) {
@@ -204,7 +205,7 @@ video {
 .content__card-link {
     display: block;
     text-decoration: none;
-    margin-top: 26px;
+    margin: 2px 2px;
 }
 
 .content__card-link:active {
