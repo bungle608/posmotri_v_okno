@@ -64,6 +64,8 @@ video {
 .result__video-container {
     position: relative;
     margin-top: 77px;
+    width: 711px;
+    height: 386px;
 }
 
 .result__video {
@@ -76,7 +78,7 @@ video {
 .search-form {
     display: flex;
     align-items: center;
-    gap: 40px;
+    gap: 35px;
     padding-top: 16px;
 }
 
@@ -172,7 +174,8 @@ video {
     font-weight: 700;
     color: #fff;
     background-color: transparent;
-    width: 100%;
+    width: 194px;
+    height: 34px;
 }
 
 .button:active {
@@ -207,7 +210,7 @@ video {
 .content__list {
     position: relative;
     overflow-y: auto;
-    height: 314px;
+    height: 301px;
     scrollbar-width: none;
     margin-top: 26px;
 }
